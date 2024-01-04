@@ -62,4 +62,3 @@ class resnet50_model(Module):
 		feature = torch.flatten(x, start_dim=1)
 	   
 		return F.normalize(feature, dim=-1)
-
