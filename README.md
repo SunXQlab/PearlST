@@ -4,8 +4,7 @@
 
 ![PearlST Workflow](https://github.com/SunXQlab/PearlST/blob/main/PearlST-workflow.png)
 
-PearlST (partial differential equation (PDE)-enhanced adversarial graph autoencoder of ST) is a tool that can precisely dissect spatial-temporal structures,   
-including spatial domains, temporal trajectories, and signaling networks, from the spatial transcriptomics data.    
+PearlST (partial differential equation (PDE)-enhanced adversarial graph autoencoder of ST) is a tool that can precisely dissect spatial-temporal structures, including spatial domains, temporal trajectories, and signaling networks, from the spatial transcriptomics data.    
 To this end, PearlST learns low-dimensional latent embeddings of ST by integrating spatial information,   
 gene expression profiles and histology image features by leveraging PDE model-based gene expression augmentation and adversarial learning.   
 The effectiveness of PearlST is extensively evaluated across multiple ST datasets obtained from various platforms, including 10X Visium, Stereo-seq, Slide-seqV2, MERFISH, and STARmap.
