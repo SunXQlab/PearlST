@@ -161,7 +161,7 @@ def pseudo_Spatiotemporal_Map(adata_all, pSM_values_save_filepath="./pSM_values.
     max_cell_for_subsampling = 5000
     try:
         print("Performing pseudo-Spatiotemporal Map")
-        adata = anndata.AnnData(adata_all.obsm['spaceflow_emb'])
+        adata = anndata.AnnData(adata_all.obsm['PearlST_emb'])
         sc.pp.neighbors(adata, n_neighbors=n_neighbors, use_rep='X')
         sc.tl.umap(adata)
         sc.tl.leiden(adata, resolution=resolution)
